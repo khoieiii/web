@@ -1,0 +1,9 @@
+#outer-div {
+width: 600px;
+text-align: center;
+}
+#inner-div {width: 50%;
+text-align: center;
+margin: 0 auto;
+line-height: 50px;
+}
