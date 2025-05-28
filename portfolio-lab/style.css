@@ -1,0 +1,87 @@
+
+* {
+  margin: 0;               
+  padding: 0;              
+  box-sizing: border-box;  
+}
+body {
+  font-family: Arial, sans-serif; 
+  background: #ffffff;           
+  color: #e65100;               
+  width: 90%;                    
+  margin: auto;                  
+  line-height: 1.6;              
+}
+h1, h2, p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #e65100;              
+}
+.container {
+  max-width: 1000px; 
+  margin: auto; 
+  padding: 20px;    
+}
+header {
+  background-color: #ff9800; 
+  color: #ffffff;            
+  text-align: center;        
+  padding: 40px 0;          
+  text-transform: uppercase; 
+}
+section {
+  background: #ffffff;        
+  margin: 20px 0;              
+  padding: 20px;              
+  border-left: 5px solid #ff9800; 
+  border-radius: 8px;          
+}
+section h2 {
+  color: #030303;
+  font-size: 28px;   
+  margin-bottom: 15px; 
+}
+section h2::before {
+  content: "★ ";        
+  color: #fb8c00;       
+}
+.projects ul li {
+  list-style: square inside; 
+  margin-bottom: 8px;        
+  font-weight: bold;        
+}
+.projects ul li:nth-child(odd) {
+  color: #e65100; 
+}
+.projects ul li:nth-child(even) {
+  color: #ffb74d; 
+}
+.about p::first-letter {
+  font-size: 24px;      
+  font-weight: bold;     
+  color: #f57c00;        
+}
+.about p::first-line {
+  color: #ff9800;        
+}
+a:hover {
+  color: #ff5722;         
+  text-decoration: underline; 
+}
+.contact p i[class*="phone"] {
+  color: #1976d2; 
+}
+footer {
+  background-color: #e65100; 
+  color: #ffffff;           
+  text-align: center;      
+  padding: 20px;             
+  margin-top: 30px;         
+}
+footer p:first-of-type {
+  font-weight: bold;         
+  font-size: 18px;           
+  color: #fff3e0;           
+}
+.contact.container {
+  border-top: 3px solid #90caf9; 
+}
